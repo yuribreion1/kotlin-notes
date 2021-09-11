@@ -23,9 +23,17 @@ Is possible to copy initialized objects to new ones:
 ``` kotlin
 // is possible to copy
 val customer3 = customer1
-println(customer3.id)
 
 // other option to copy, but you can change values of parameters
 val customer4 = customer1.copy(email = "test@test.com")
-println(customer4.email)
+```
+
+If you want, you can override methods like `toString` using the keywork `override`, follow an example below that convert the output to JSON format:
+
+``` kotlin
+data class Customer(var id: Int, var name: String, var email: String) {
+    override fun toString(): String {
+        return "{\"id\": \"$id\", \"name\": \"$name\", \"email\": \"$email\" }"
+    }
+}
 ```
