@@ -53,3 +53,22 @@ fun main() {
 }
 ```
 In the nutshell, named parameters able us to change the order of values.
+
+## Functions with unlimited parameters in Kotlin
+
+You can use `varargs` as an array of arguments, follow an example:
+
+``` kotlin
+fun printStrings(varargs strings: String) {
+    for (string in strings) {
+        println(string)
+    }
+}
+
+fun main() {
+    printStrings("1")
+    printStrings("1","2")
+    printStrings("1","2","3")
+    printStrings("1","2","3","4")
+}
+```
