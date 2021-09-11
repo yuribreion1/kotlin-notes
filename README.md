@@ -1,3 +1,3 @@
 # Kotlin notes
 
-This repository is a notebook of my experience with kotlin, watching the course of [Introduction to Kotlin](https://learning.oreilly.com/videos/introduction-to)
+This repository is a notebook of my experience with kotlin, watching the course of [Introduction to Kotlin](https://learning.oreilly.com/videos/introduction-to-kotlin/9781491964125/)
