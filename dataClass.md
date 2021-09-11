@@ -37,3 +37,4 @@ data class Customer(var id: Int, var name: String, var email: String) {
     }
 }
 ```
+And this is the output: `{"id": "1", "name": "Yuri", "email": "yuribreion@mail.com" }`
